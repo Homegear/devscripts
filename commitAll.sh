@@ -95,6 +95,11 @@ git checkout dev
 git add --all .
 git commit -m "$1"
 
+cd $SCRIPTDIR/homegear-somfy-tahoma
+git checkout dev
+git add --all .
+git commit -m "$1"
+
 cd $SCRIPTDIR/homegear-easyled
 git add --all .
 git commit -m "$1"

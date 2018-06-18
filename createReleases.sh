@@ -30,4 +30,5 @@ createRelease homegear-knx Homegear-KNX $1
 createRelease homegear-enocean Homegear-EnOcean $1
 createRelease homegear-intertechno Homegear-Intertechno $1
 createRelease homegear-nanoleaf Homegear-Nanoleaf $1
+createRelease homegear-somfy-tahoma Homegear-Somfy-TaHoma $1
 createRelease homegear-influxdb homegear-influxdb $1

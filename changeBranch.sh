@@ -89,6 +89,10 @@ cd $SCRIPTDIR/homegear-zwave
 git checkout $1
 git pull
 
+cd $SCRIPTDIR/homegear-somfy-tahoma
+git checkout $1
+git pull
+
 cd $SCRIPTDIR/homegear-influxdb
 git checkout $1
 git pull

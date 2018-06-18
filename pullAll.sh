@@ -79,6 +79,9 @@ git pull
 cd $SCRIPTDIR/homegear-zwave
 git pull
 
+cd $SCRIPTDIR/homegear-somfy-tahoma
+git pull
+
 cd $SCRIPTDIR/homegear-easy-licensing
 git pull
 

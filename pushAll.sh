@@ -61,6 +61,9 @@ git push
 cd $SCRIPTDIR/homegear-zwave
 git push
 
+cd $SCRIPTDIR/homegear-somfy-tahoma
+git push
+
 cd $SCRIPTDIR/homegear-easyled
 git push
 
