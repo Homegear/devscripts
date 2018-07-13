@@ -73,6 +73,12 @@ git pull
 cd $SCRIPTDIR/homegear-easycam
 git pull
 
+cd $SCRIPTDIR/homegear-rsl
+git pull
+
+cd $SCRIPTDIR/homegear-rs2w
+git pull
+
 cd $SCRIPTDIR/homegear-mbus
 git pull
 
