@@ -100,3 +100,7 @@ git pull
 cd $SCRIPTDIR/homegear-management
 git checkout $1
 git pull
+
+cd $SCRIPTDIR/homegear-gateway
+git checkout $1
+git pull
