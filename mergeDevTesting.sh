@@ -201,3 +201,19 @@ git checkout testing
 git pull
 git merge --no-ff dev
 git push
+
+cd $SCRIPTDIR/homegear-webssh
+git checkout dev
+git pull
+git checkout testing
+git pull
+git merge --no-ff dev
+git push
+
+cd $SCRIPTDIR/homegear-adminui
+git checkout dev
+git pull
+git checkout testing
+git pull
+git merge --no-ff dev
+git push

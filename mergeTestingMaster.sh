@@ -193,3 +193,19 @@ git checkout master
 git pull
 git merge --no-ff testing
 git push
+
+cd $SCRIPTDIR/homegear-webssh
+git checkout testing
+git pull
+git checkout master
+git pull
+git merge --no-ff testing
+git push
+
+cd $SCRIPTDIR/homegear-adminui
+git checkout testing
+git pull
+git checkout master
+git pull
+git merge --no-ff testing
+git push

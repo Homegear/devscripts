@@ -14,9 +14,9 @@ cd $SCRIPTDIR/homegear-nodes-extra
 make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
 [ $? -ne 0 ] && exit 1
 
-#cd $SCRIPTDIR/homegear-homematicbidcos
-#make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
-#[ $? -ne 0 ] && exit 1
+cd $SCRIPTDIR/homegear-homematicbidcos
+make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
+[ $? -ne 0 ] && exit 1
 
 #cd $SCRIPTDIR/homegear-homematicwired
 #make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install

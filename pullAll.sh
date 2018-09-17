@@ -102,3 +102,9 @@ git pull
 
 cd $SCRIPTDIR/homegear-management
 git pull
+
+cd $SCRIPTDIR/homegear-webssh
+git pull
+
+cd $SCRIPTDIR/homegear-adminui
+git pull

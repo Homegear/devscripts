@@ -104,3 +104,11 @@ git pull
 cd $SCRIPTDIR/homegear-gateway
 git checkout $1
 git pull
+
+cd $SCRIPTDIR/homegear-webssh
+git checkout $1
+git pull
+
+cd $SCRIPTDIR/homegear-adminui
+git checkout $1
+git pull

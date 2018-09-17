@@ -72,3 +72,15 @@ git push
 
 cd $SCRIPTDIR/homegear-easycam
 git push
+
+cd $SCRIPTDIR/homegear-management
+git push
+
+cd $SCRIPTDIR/homegear-gateway
+git push
+
+cd $SCRIPTDIR/homegear-webssh
+git push
+
+cd $SCRIPTDIR/homegear-adminui
+git push
