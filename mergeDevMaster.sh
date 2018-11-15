@@ -154,7 +154,7 @@ git pull
 git merge --no-ff dev
 git push
 
-cd $SCRIPTDIR/homegear-ccu2
+cd $SCRIPTDIR/homegear-ccu
 git checkout dev
 git pull
 git checkout master

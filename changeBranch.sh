@@ -81,7 +81,7 @@ cd $SCRIPTDIR/homegear-mbus
 git checkout $1
 git pull
 
-cd $SCRIPTDIR/homegear-ccu2
+cd $SCRIPTDIR/homegear-ccu
 git checkout $1
 git pull
 

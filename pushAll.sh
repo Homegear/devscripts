@@ -49,7 +49,7 @@ git push
 cd $SCRIPTDIR/homegear-mbus
 git push
 
-cd $SCRIPTDIR/homegear-ccu2
+cd $SCRIPTDIR/homegear-ccu
 git push
 
 cd $SCRIPTDIR/homegear-rsl

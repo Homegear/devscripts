@@ -80,7 +80,7 @@ git checkout dev
 git add --all .
 git commit -m "$1"
 
-cd $SCRIPTDIR/homegear-ccu2
+cd $SCRIPTDIR/homegear-ccu
 git checkout dev
 git add --all .
 git commit -m "$1"

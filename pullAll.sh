@@ -61,7 +61,7 @@ git pull
 cd $SCRIPTDIR/homegear-nanoleaf
 git pull
 
-cd $SCRIPTDIR/homegear-ccu2
+cd $SCRIPTDIR/homegear-ccu
 git pull
 
 cd $SCRIPTDIR/homegear-easyled
