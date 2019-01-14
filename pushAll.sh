@@ -76,6 +76,9 @@ git push
 cd $SCRIPTDIR/homegear-management
 git push
 
+cd $SCRIPTDIR/homegear-influxdb
+git push
+
 cd $SCRIPTDIR/homegear-gateway
 git push
 

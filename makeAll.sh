@@ -94,9 +94,9 @@ make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
 #make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
 #[ $? -ne 0 ] && exit 1
 
-cd $SCRIPTDIR/homegear-ccu
-make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
-[ $? -ne 0 ] && exit 1
+#cd $SCRIPTDIR/homegear-ccu
+#make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install
+#[ $? -ne 0 ] && exit 1
 
 #cd $SCRIPTDIR/homegear-zwave
 #make -j17 CPPFLAGS="-DDEBUG" CXXFLAGS="-g -O0" && make install

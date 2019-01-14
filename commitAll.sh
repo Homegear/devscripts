@@ -129,6 +129,11 @@ git checkout dev
 git add --all .
 git commit -m "$1"
 
+cd $SCRIPTDIR/homegear-influxdb
+git checkout dev
+git add --all .
+git commit -m "$1"
+
 cd $SCRIPTDIR/homegear-gateway
 git checkout dev
 git add --all .
