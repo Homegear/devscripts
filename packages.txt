@@ -1,0 +1,45 @@
+# Package                     Git clone URL                                                           Compile in makeAll.sh
+
+# Libraries
+libhomegear-base              ssh://git@github.com:/Homegear/libhomegear-base.git                     0
+libhomegear-ipc               ssh://git@github.com:/Homegear/libhomegear-ipc.git                      0
+libhomegear-node              ssh://git@github.com:/Homegear/libhomegear-node.git                     0
+
+# Homegear
+Homegear                      ssh://git@github.com:/Homegear/Homegear.git                             1
+
+# Family modules
+homegear-beckhoff             ssh://git@gitit.de:44444/Homegear-Addons/Homegear-Beckhoff.git          0
+homegear-ccu                  ssh://git@github.com:/Homegear/Homegear-CCU.git                         0
+homegear-easycam              ssh://git@gitit.de:44444/EASY/homegear-easycam.git                      0
+homegear-easyled              ssh://git@gitit.de:44444/EASY/homegear-easyled.git                      0
+homegear-easyled2             ssh://git@gitit.de:44444/EASY/homegear-easyled.git                      0
+homegear-enocean              ssh://git@gitit.de:44444/Homegear-Addons/Homegear-EnOcean.git           0
+homegear-enocean-xml          ssh://git@github.com:/Homegear/Homegear-EnOcean-XML.git                 0
+homegear-homematicbidcos      ssh://git@github.com:/Homegear/Homegear-HomeMaticBidCoS.git             0
+homegear-homematicwired       ssh://git@github.com:/Homegear/Homegear-HomeMaticWired.git              0
+homegear-insteon              ssh://git@github.com:/Homegear/Homegear-Insteon.git                     0
+homegear-intertechno          ssh://git@github.com:/Homegear/Homegear-Intertechno.git                 0
+homegear-ipcam                ssh://git@github.com:/Homegear/Homegear-IPCam.git                       0
+homegear-knx                  ssh://git@gitit.de:44444/Homegear-Addons/Homegear-KNX.git               0
+homegear-kodi                 ssh://git@github.com:/Homegear/Homegear-Kodi.git                        0
+homegear-max                  ssh://git@github.com:/Homegear/Homegear-MAX.git                         0
+homegear-mbus                 ssh://git@gitit.de:44444/Homegear-Addons/Homegear-M-Bus.git             0
+homegear-nanoleaf             ssh://git@github.com:/Homegear/Homegear-Nanoleaf.git                    0
+homegear-philipshue           ssh://git@github.com:/Homegear/Homegear-PhilipsHue.git                  0
+homegear-rs2w                 ssh://git@gitit.de:44444/Homegear-Addons/homegear-rs2w.git              0
+homegear-rsl                  ssh://git@gitit.de:44444/Homegear-Addons/homegear-rsl.git               0
+homegear-somfy-tahoma         ssh://git@github.com:/Homegear/Homegear-Somfy-TaHoma.git                0
+homegear-sonos                ssh://git@github.com:/Homegear/Homegear-Sonos.git                       0
+homegear-zwave                ssh://git@gitit.de:44444/Homegear-Addons/Homegear-Z-Wave.git            0
+
+# Additional modules
+homegear-adminui              ssh://git@gitit.de:44444/Homegear-Addons/Homegear-AdminUI.git           0
+homegear-gateway              ssh://git@github.com:/Homegear/homegear-gateway.git                     0
+homegear-influxdb             ssh://git@github.com:/Homegear/homegear-influxdb.git                    0
+homegear-management           ssh://git@github.com:/Homegear/homegear-management.git                  0
+homegear-webssh               ssh://git@gitit.de:44444/Homegear-Addons/Homegear-WebSSH.git            0
+
+# Licensing modules
+homegear-easy-licensing       ssh://git@gitit.de:44444/Homegear-Addons/homegear-easy-licensing.git    0
+homegear-licensing            ssh://git@gitit.de:44444/Homegear-Addons/homegear-licensing.git         0

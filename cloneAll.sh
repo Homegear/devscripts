@@ -1,10 +1,4 @@
 #!/bin/bash
-if test -z "$1"; then
-	echo "Please provide a branch to change to."
-	exit 1
-fi
-
-#!/bin/bash
 
 SCRIPTDIR="$( cd "$(dirname $0)" && pwd )"
 BASEDIR="${SCRIPTDIR}/.."
@@ -19,7 +13,6 @@ for package in "${packages[@]}"; do
 	fi
 
 	pair=($package)
-	cd $BASEDIR/${pair[0]}
-	git checkout $1
-	git pull
+	cd $BASEDIR
+	git clone ${pair[1]} ${pair[0]}
 done
