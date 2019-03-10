@@ -13,6 +13,7 @@ for package in "${packages[@]}"; do
 	fi
 
 	pair=($package)
+	echo "Merging ${pair[0]} from dev into testing..."
 	cd $BASEDIR/${pair[0]}
 	git checkout dev
 	git pull
@@ -20,4 +21,5 @@ for package in "${packages[@]}"; do
 	git pull
 	git merge --no-ff -m "Merged dev" dev
 	git push
+	echo ""
 done

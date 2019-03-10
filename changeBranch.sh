@@ -19,7 +19,9 @@ for package in "${packages[@]}"; do
 	fi
 
 	pair=($package)
+	echo "Checking out branch ${1} of ${pair[0]}..."
 	cd $BASEDIR/${pair[0]}
 	git checkout $1
 	git pull
+	echo ""
 done
