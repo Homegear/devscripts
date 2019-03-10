@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 SCRIPTDIR="$( cd "$(dirname $0)" && pwd )"
 BASEDIR="${SCRIPTDIR}/.."
 
